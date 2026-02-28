@@ -12,7 +12,7 @@ main,
 footer,
 img,
 h1,
-h3,
+h2,
 ul {
   margin: 0;
   padding: 0;
@@ -47,7 +47,7 @@ img {
   font-style: normal;
 }
 
-.mobile h3 {
+.mobile h2 {
   font-family: "Lora", serif;
   font-weight: 400;
   font-style: normal;
@@ -90,7 +90,7 @@ main p {
   font-size: 1.25em;
 }
 
-main h3 {
+main h2 {
   padding-top: 2%;
 }
 
