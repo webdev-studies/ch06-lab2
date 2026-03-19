@@ -16,7 +16,8 @@ h2,
 ul,
 aside,
 figure,
-figcaption {
+figcaption,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -46,7 +47,7 @@ figcaption {
   border-top: 4px solid #2a1f14;
 }
 
-img {
+img, video {
   max-width: 100%;
   display: block;
 }

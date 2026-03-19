@@ -65,7 +65,28 @@ Date: 28/02/2026
             Wildlife Rehabilitators Association</a>.
         </p>
 
-        <img class="round" src="./images/tortoise.jpg" alt="tortoise eating vegetation">
+        <p>Watch the video below to meet our new, rescued friends.</p>
+
+        <!-- 
+       I replaced the old Flash method with the modern HTML5 video element 
+       because based on my research, Flash is no longer supported and isn't
+       accessible for mobile users or screen readers. 
+       To make sure everyone can see the content, I provided two different 
+       video formats (MP4 and WebM) as a backup for different browsers.
+       I also included "fallback text" inside the video tag so that if someone
+       is using a very old browser, they still get a message telling them how
+       to watch the video. Finally, I added caption and description tracks to 
+       make sure the video is accessible to users with hearing or visual impairments.
+       -->
+        <video controls poster="./images/baby-hawk.jpg">
+
+          <source src="./media/wildrescues.mp4" type="video/mp4">
+          <source src="wildrescues.webm" type="video/webm">
+          <track src="./media/captions.vtt" kind="captions" srclang="en" label="Captions">
+          <track src="./media/descriptions.vtt" kind="descriptions" srclang="en" label="English Descriptions">
+          <p>Your browser does not support the video element</p>
+
+        </video>
 
         <h3>We help many animals, such as:</h3>
         <ul>
