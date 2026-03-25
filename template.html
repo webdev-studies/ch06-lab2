@@ -2,70 +2,78 @@
 <!-- 
 Student Name: Joanne O Ethe
 File name: template.html
-Date: 28/02/2026
+Date: 25/03/2026
  -->
 <html lang="en">
-  <head>
-    <title>Wild Rescues: Template</title>
-    <meta charset="utf-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <link rel="preconnect" href="https://fonts.googleapis.com" >
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
-    <link
-      href="https://fonts.googleapis.com/css2?family=Emblema+One&family=Lora&display=swap"
-      rel="stylesheet"
-    >
 
-    <link rel="shortcut icon" href="images/favicon.ico" >
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32.png"
-    >
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./images/apple-touch-icon.png"
-    >
-    <link rel="icon" sizes="192x192" href="./images/android-chrome-192.png" >
-    <link rel="stylesheet" href="css/styles.css" >
-  </head>
-  <body>
-    <header>
-      <div class="tab-desk">
-        <a href="index.html"
-          ><img src="images/baby-hawk.jpg" alt="rescued baby hawk"
-        ></a>
-      </div>
-      <div class="mobile">
-        <h1>&#128062; Wild Rescues</h1>
+<head>
+  <title>Wild Rescues: Template</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Emblema+One&family=Lora&display=swap" rel="stylesheet">
 
-        <!-- Using H2 instead of H3 for proper heading hierarchy; W3C HTML Validator flagged H3 directly under H1 as invalid -->
-        <h2>Rescue. Rehabilitate. Release.</h2>
-      </div>
-    </header>
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+  <link rel="icon" sizes="192x192" href="./images/android-chrome-192.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
 
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="partnership.html">Partnership</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="faqs.html">FAQs</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+<body>
 
-    <main>
-      <div></div>
-    </main>
+  <!-- Mobile Nav -->
+  <nav class="mobile-nav">
+    <div id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="partnership.html">Partnership</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="faqs.html">FAQs</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+    <a class="nav-icon" onclick="hamburger()">
+      <div id="icon"> &#9776;</div>
+    </a>
+  </nav>
 
-    <footer>
-      <p>&copy; Copyright 2021. All Rights Reserved.</p>
-      <p>
-        <a href="mailto:contact@wildrescues.net">contact@wildrescues.net</a>
-      </p>
-    </footer>
-  </body>
+
+
+  <header>
+    <div class="tab-desk">
+      <a href="index.html"><img src="images/baby-hawk.jpg" alt="rescued baby hawk"></a>
+    </div>
+    <div class="mobile">
+      <h1>&#128062; Wild Rescues</h1>
+
+      <!-- Using H2 instead of H3 for proper heading hierarchy; W3C HTML Validator flagged H3 directly under H1 as invalid -->
+      <h2>Rescue. Rehabilitate. Release.</h2>
+    </div>
+  </header>
+
+  <nav class="tab-desk">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="partnership.html">Partnership</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="faqs.html">FAQs</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div></div>
+  </main>
+
+  <footer>
+    <p>&copy; Copyright 2021. All Rights Reserved.</p>
+    <p>
+      <a href="mailto:contact@wildrescues.net">contact@wildrescues.net</a>
+    </p>
+  </footer>
+  <script src="./scripts/script.js"></script>
+</body>
+
 </html>
