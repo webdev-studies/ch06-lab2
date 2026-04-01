@@ -2,13 +2,15 @@
 <!-- 
 Student Name: Joanne O Ethe
 File name: index.html
-Date: 25/03/2026
+Date: 01/04/2026
  -->
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Wild Rescues is a local nonprofit organization dedicated to helping injured, neglected, or orphaned wildlife."
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -19,11 +21,13 @@ Date: 25/03/2026
   <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
   <link rel="icon" sizes="192x192" href="./images/android-chrome-192.png">
 
-  <link rel="stylesheet" href="./css/styles.css">
-  <title>Wild Rescues: Home</title>
+  <link rel="stylesheet" href="./css/styles.min.css">
+  <title>Wild Rescues | Wild Rescues</title>
 </head>
 
 <body>
+  <!-- Skip to Content Link -->
+   <a class="skip" href="#content"> Skip to Content</a>
 
 
   <!-- Mobile Nav -->
@@ -70,7 +74,7 @@ Date: 25/03/2026
     </nav>
 
     <!-- Use the main area to add the main content of the webpage -->
-    <main>
+    <main id="content">
       <div id="welcome">
         <p>
           Welcome to Wild Rescues. Our mission is to rescue, rehabilitate, and
@@ -104,10 +108,19 @@ Date: 25/03/2026
     </main>
 
     <footer>
-      <p>&copy; Copyright 2021. All Rights Reserved.</p>
-      <p>
-        <a href="mailto:contact@wildrescues.net">contact@wildrescues.net</a>
-      </p>
+
+      <div class="copyright">
+        <p>&copy; Copyright 2021. All Rights Reserved.</p>
+        <p>
+          <a href="mailto:contact@wildrescues.net">contact@wildrescues.net</a>
+        </p>
+      </div>
+      <div class="social">
+        <a href="https://www.facebook.com" target="_blank"><img src="./images/facebook-logo.png"
+            alt="Facebook logo"></a>
+        <a href="https://www.twitter.com" target="_blank"><img src="./images/twitter-logo.png" alt="Twitter logo"></a>
+
+      </div>
     </footer>
   </div>
   <script src="./scripts/script.js"></script>

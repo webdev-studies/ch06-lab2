@@ -7,8 +7,9 @@ Date: 25/03/2026
 <html lang="en">
 
 <head>
-    <title>Wild Rescues: Gallery</title>
+    <title>Gallery | Wild Rescues</title>
     <meta charset="utf-8">
+    <meta name="description" content="Meet our rescued friends. We have horses, goats, squirrels, pigs, deer, cows, rabbits, birds, turtles, and many more."
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,10 +20,12 @@ Date: 25/03/2026
     <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
     <link rel="icon" sizes="192x192" href="./images/android-chrome-192.png">
 
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.min.css">
 </head>
 
 <body>
+    <!-- Skip to Content Link -->
+   <a class="skip" href="#content"> Skip to Content</a>
 
     <!-- Mobile Nav -->
     <nav class="mobile-nav">
@@ -64,7 +67,7 @@ Date: 25/03/2026
         </ul>
     </nav>
 
-    <main class="grid">
+    <main id="content" class="grid">
         <aside>
             <p>Meet our friends in need.</p>
         </aside>
@@ -170,10 +173,19 @@ Date: 25/03/2026
     </main>
 
     <footer>
+
+      <div class="copyright">
         <p>&copy; Copyright 2021. All Rights Reserved.</p>
         <p>
-            <a href="mailto:contact@wildrescues.net">contact@wildrescues.net</a>
+          <a href="mailto:contact@wildrescues.net">contact@wildrescues.net</a>
         </p>
+      </div>
+      <div class="social">
+        <a href="https://www.facebook.com" target="_blank"><img src="./images/facebook-logo.png"
+            alt="Facebook logo"></a>
+        <a href="https://www.twitter.com" target="_blank"><img src="./images/twitter-logo.png" alt="Twitter logo"></a>
+
+      </div>
     </footer>
     <script src="./scripts/script.js"></script>
 </body>
