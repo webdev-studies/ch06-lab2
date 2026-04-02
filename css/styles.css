@@ -53,14 +53,13 @@ video {
   display: block;
 }
 
-
 /* Style rules for skip navigation link */
-.skip{
+.skip {
   position: absolute;
-  left: -99px;
+  left: -999px;
 }
 
-.skip:focus{
+.skip:focus {
   color: #fff;
   background-color: #2a1f14;
   text-decoration: none;
@@ -71,188 +70,184 @@ video {
   z-index: 1;
 }
 
-
-
-
-
 /* Style rules for mobile viewport */
 
-/* Style rules to show mobile class and hide tab-desk class */
-.mobile,
-.mobile-tablet {
-  display: block;
-}
+  /* Style rules to show mobile class and hide tab-desk class */
+  .mobile,
+  .mobile-tablet {
+    display: block;
+  }
 
-.tab-desk,
-.desktop,
-#nav-links {
-  display: none;
-}
+  .tab-desk,
+  .desktop,
+  #nav-links {
+    display: none;
+  }
 
-/* Style rules for header area */
-.mobile h1 {
-  font-family: "Emblema One", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  margin: 2% 0 0 3%;
-}
+  /* Style rules for header area */
+  .mobile h1 {
+    font-family: "Emblema One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin: 2% 0 0 3%;
+  }
 
-.mobile h2 {
-  font-family: "Lora", serif;
-  font-weight: 400;
-  font-style: normal;
-}
+  .mobile h2 {
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 
-/* Style rules for navigation area */
-nav {
-  background-color: #2a1f14;
-}
+  /* Style rules for navigation area */
+  nav {
+    background-color: #2a1f14;
+  }
 
-.mobile-nav a {
-  color: #fff;
-  text-align: center;
-  font-size: 2em;
-  text-decoration: none;
-  padding: 3%;
-  display: block;
-}
+  .mobile-nav a {
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    padding: 3%;
+    display: block;
+  }
 
-.mobile-nav a.nav-icon {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  color: #f6eee4;
-  padding: 2%;
-}
+  .mobile-nav a.nav-icon {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #f6eee4;
+    padding: 2%;
+  }
 
-.nav-icon div {
-  height: 40px;
-  width: 40px;
-  color: #2a1f14;
-}
+  .nav-icon div {
+    height: 40px;
+    width: 40px;
+    color: #2a1f14;
+  }
 
-/* Style rules for main content */
-main {
-  padding: 2%;
-  font-family: "Lora", serif;
-  font-weight: 500;
-  font-style: normal;
-}
+  /* Style rules for main content */
+  main {
+    padding: 2%;
+    font-family: "Lora", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
 
-main p {
-  font-size: 1.25em;
-}
+  main p {
+    font-size: 1.25em;
+  }
 
-main h2 {
-  padding-top: 2%;
-}
+  main h2 {
+    padding-top: 2%;
+  }
 
-main ul {
-  list-style-type: square;
-}
+  main ul {
+    list-style-type: square;
+  }
 
-.link {
-  color: #4d3319;
-  text-decoration: none;
-  font-weight: bold;
-  font-style: italic;
-}
+  .link {
+    color: #4d3319;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+  }
 
-.action {
-  font-size: 1.75em;
-  font-weight: bold;
-  text-align: center;
-}
+  .action {
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+  }
 
-.round {
-  border-radius: 6px;
-}
+  .round {
+    border-radius: 6px;
+  }
 
-#info ul {
-  margin-left: 10%;
-}
+  #info ul {
+    margin-left: 10%;
+  }
 
-#contact,
-#form h2 {
-  text-align: center;
-}
+  #contact,
+  #form h2 {
+    text-align: center;
+  }
 
-.tel-link {
-  background-color: #2a1f14;
-  padding: 2%;
-  width: 80%;
-  margin: 0 auto;
-}
+  .tel-link {
+    background-color: #2a1f14;
+    padding: 2%;
+    width: 80%;
+    margin: 0 auto;
+  }
 
-.tel-link a {
-  color: #f6eee4;
-  text-decoration: none;
-  font-weight: bold;
-}
+  .tel-link a {
+    color: #f6eee4;
+    text-decoration: none;
+    font-weight: bold;
+  }
 
-#questions p {
-  cursor: pointer;
-}
+  #questions p {
+    cursor: pointer;
+  }
 
-#answer {
-  text-align: center;
-  font-weight: bold;
-  width: 80%;
-  margin: 0 auto;
-}
+  #answer {
+    text-align: center;
+    font-weight: bold;
+    width: 80%;
+    margin: 0 auto;
+  }
 
-#answer h2 {
-  display: none;
-}
+  #answer h2 {
+    display: none;
+  }
 
+  /* Style rules for form elements */
+  /* Mobile Viewport */
+  fieldset,
+  input,
+  textarea {
+    margin-bottom: 2%;
+  }
 
-/* Style rules for form elements */
-/* Mobile Viewport */
-fieldset,
-input,
-textarea {
-  margin-bottom: 2%;
-}
+  fieldset legend {
+    font-weight: bold;
+    font-size: 1.25em;
+  }
 
-fieldset legend {
-  font-weight: bold;
-  font-size: 1.25em;
-}
+  label {
+    display: block;
+    padding-top: 2%;
+  }
 
-label {
-  display: block;
-  padding-top: 2%;
-}
+  form #submit {
+    margin: 0 auto;
+    display: block;
+    padding: 2%;
+    background-color: #78593a;
+    color: #f6eee4;
+    font-size: 1.25em;
+    border-radius: 10px;
+  }
 
-form #submit {
-  margin: 0 auto;
-  display: block;
-  padding: 2%;
-  background-color: #78593a;
-  color: #f6eee4;
-  font-size: 1.25em;
-  border-radius: 10px;
-}
+  /* Style rules for footer content */
+  footer {
+    text-align: center;
+    font-size: 0.85em;
+    background-color: #2a1f14;
+    color: #f6eee4;
+    padding: 1% 0%;
+  }
 
-/* Style rules for footer content */
-footer {
-  text-align: center;
-  font-size: 0.85em;
-  background-color: #2a1f14;
-  color: #f6eee4;
-  padding: 1% 0%;
-}
+  footer a {
+    color: #f3e6d8;
+    text-decoration: none;
+  }
 
-footer a {
-  color: #f3e6d8;
-  text-decoration: none;
-}
+  .social img {
+    display: inline-block;
+    padding: 4%;
+  }
 
-.social img{
-  display: inline-block;
-  padding: 4%;
-}
 
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 620px), print {
@@ -304,20 +299,17 @@ footer a {
   }
 
   /* Tablet Viewport: Styles rules for footer area */
-  footer{
+  footer {
     overflow: auto;
   }
-  .copyright{
+  .copyright {
     float: left;
     width: 65%;
   }
-  .social{
+  .social {
     float: right;
     width: 25%;
   }
-
-
-
 }
 
 /* Media Query for Large Desktop Viewports */
