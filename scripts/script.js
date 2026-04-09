@@ -2,7 +2,35 @@
 
 // File name: script.js
 
-// Date: 25/03/2026
+// Date: 09/04/2026
+
+// jQuery for hero image to consume the header window space
+$(document).ready(function(){
+    $('.hero').height($(window).height());
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Global Variables
 var answer = document.querySelector("#answer p");
@@ -46,3 +74,8 @@ function ans4() {
     heading.style.display = "block";
     answer.textContent = "We need volunteers to help feed animals, care for animals, and clean animal pens. We also accept donations.";
 }
+
+
+
+
+
